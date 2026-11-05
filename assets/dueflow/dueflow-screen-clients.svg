@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="100%" height="100%">
+  <defs>
+    <linearGradient id="screenBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F7F8F5"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="560" fill="url(#screenBg)"/>
+  
+  <!-- Header Bar -->
+  <rect width="800" height="54" fill="#EEF4EF" stroke="#E3E9E3" stroke-width="1"/>
+  <circle cx="28" cy="27" r="5" fill="#17352C" opacity="0.3"/>
+  <circle cx="44" cy="27" r="5" fill="#17352C" opacity="0.3"/>
+  <circle cx="60" cy="27" r="5" fill="#17352C" opacity="0.3"/>
+
+  <!-- Logo and title in bar -->
+  <text x="85" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="13" font-weight="700" fill="#17352C">DueFlow</text>
+  <rect x="150" y="16" width="220" height="22" rx="11" fill="#FFFFFF" stroke="#DCE8DF"/>
+  <text x="260" y="31" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="10" fill="#66736A" text-anchor="middle">app.dueflow.io / clients</text>
+
+  <!-- Content -->
+  <g transform="translate(36, 80)">
+    
+  <text x="0" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="20" font-weight="700" fill="#17352C">Client Directory &amp; Reliability Score</text>
+  <text x="0" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="12" fill="#66736A">Understand which clients pay promptly and tailor future contract terms</text>
+
+  <g transform="translate(0, 60)">
+    <rect width="728" height="310" rx="10" fill="#FFFFFF" stroke="#E3E9E3"/>
+    <g transform="translate(24, 24)">
+      <!-- Client Card 1 -->
+      <rect x="0" y="0" width="326" height="110" rx="8" fill="#F7F8F5" stroke="#E3E9E3"/>
+      <text x="16" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="14" font-weight="700" fill="#17352C">Marlowe Studio</text>
+      <text x="16" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="11" fill="#66736A">3 invoices total · $4,200 lifetime</text>
+      <rect x="16" y="66" width="110" height="22" rx="11" fill="#D1FAE5"/>
+      <text x="71" y="81" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="10" font-weight="600" fill="#047857" text-anchor="middle">PAYS IN 4 DAYS</text>
+
+      <!-- Client Card 2 -->
+      <rect x="350" y="0" width="326" height="110" rx="8" fill="#F7F8F5" stroke="#E3E9E3"/>
+      <text x="366" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="14" font-weight="700" fill="#17352C">Ridgeway &amp; Co.</text>
+      <text x="366" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="11" fill="#66736A">2 invoices total · $1,920 lifetime</text>
+      <rect x="366" y="66" width="120" height="22" rx="11" fill="#FEE2E2"/>
+      <text x="426" y="81" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="10" font-weight="600" fill="#B91C1C" text-anchor="middle">OFTEN DELAYED</text>
+
+      <!-- Client Card 3 -->
+      <rect x="0" y="130" width="326" height="110" rx="8" fill="#F7F8F5" stroke="#E3E9E3"/>
+      <text x="16" y="158" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="14" font-weight="700" fill="#17352C">Hale Botanics</text>
+      <text x="16" y="178" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="11" fill="#66736A">5 invoices total · $8,600 lifetime</text>
+      <rect x="16" y="196" width="120" height="22" rx="11" fill="#D1FAE5"/>
+      <text x="76" y="211" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="10" font-weight="600" fill="#047857" text-anchor="middle">PAYS IN 2 DAYS</text>
+
+      <!-- Client Card 4 -->
+      <rect x="350" y="130" width="326" height="110" rx="8" fill="#F7F8F5" stroke="#E3E9E3"/>
+      <text x="366" y="158" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="14" font-weight="700" fill="#17352C">Fieldnote Apps</text>
+      <text x="366" y="178" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="11" fill="#66736A">1 invoice total · $590 lifetime</text>
+      <rect x="366" y="196" width="110" height="22" rx="11" fill="#DCE8DF"/>
+      <text x="421" y="211" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="10" font-weight="600" fill="#285445" text-anchor="middle">PROMPT PAYER</text>
+    </g>
+  </g>
+
+  </g>
+</svg>

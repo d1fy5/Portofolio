@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="100%" height="100%">
+  <defs>
+    <linearGradient id="screenBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F7F8F5"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="560" fill="url(#screenBg)"/>
+  
+  <!-- Header Bar -->
+  <rect width="800" height="54" fill="#EEF4EF" stroke="#E3E9E3" stroke-width="1"/>
+  <circle cx="28" cy="27" r="5" fill="#17352C" opacity="0.3"/>
+  <circle cx="44" cy="27" r="5" fill="#17352C" opacity="0.3"/>
+  <circle cx="60" cy="27" r="5" fill="#17352C" opacity="0.3"/>
+
+  <!-- Logo and title in bar -->
+  <text x="85" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="13" font-weight="700" fill="#17352C">DueFlow</text>
+  <rect x="150" y="16" width="220" height="22" rx="11" fill="#FFFFFF" stroke="#DCE8DF"/>
+  <text x="260" y="31" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="10" fill="#66736A" text-anchor="middle">app.dueflow.io / reminders</text>
+
+  <!-- Content -->
+  <g transform="translate(36, 80)">
+    
+  <text x="0" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="20" font-weight="700" fill="#17352C">Polite Follow-Up Cadences</text>
+  <text x="0" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="12" fill="#66736A">Automate reminder generation with customizable gentle tone tiers</text>
+
+  <g transform="translate(0, 60)">
+    <rect width="728" height="310" rx="10" fill="#FFFFFF" stroke="#E3E9E3"/>
+    <g transform="translate(24, 24)">
+      <!-- Step 1 -->
+      <rect x="0" y="0" width="210" height="240" rx="8" fill="#F7F8F5" stroke="#E3E9E3"/>
+      <text x="16" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="11" font-weight="700" fill="#285445">TIER 1 · PRE-DUE</text>
+      <text x="16" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="13" font-weight="600" fill="#17352C">Friendly Heads-Up</text>
+      <text x="16" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="11" fill="#66736A">Sent 3 days before due date. Confirms delivery and offers bank info.</text>
+      <rect x="16" y="190" width="178" height="28" rx="6" fill="#DCE8DF"/>
+      <text x="105" y="208" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="11" font-weight="600" fill="#285445" text-anchor="middle">Active Cadence</text>
+
+      <!-- Step 2 -->
+      <rect x="235" y="0" width="210" height="240" rx="8" fill="#EEF4EF" stroke="#B7CCBA"/>
+      <text x="251" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="11" font-weight="700" fill="#17352C">TIER 2 · DUE DATE</text>
+      <text x="251" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="13" font-weight="600" fill="#17352C">Gentle Check-In</text>
+      <text x="251" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="11" fill="#527663">Sent on the payment date. Attaches invoice PDF with one-click pay.</text>
+      <rect x="251" y="190" width="178" height="28" rx="6" fill="#17352C"/>
+      <text x="340" y="208" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">Active Cadence</text>
+
+      <!-- Step 3 -->
+      <rect x="470" y="0" width="210" height="240" rx="8" fill="#F7F8F5" stroke="#E3E9E3"/>
+      <text x="486" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="11" font-weight="700" fill="#92400E">TIER 3 · OVERDUE</text>
+      <text x="486" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="13" font-weight="600" fill="#17352C">Direct Follow-up</text>
+      <text x="486" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="11" fill="#66736A">Sent 7 days past due. Asks if there are any accounting queries.</text>
+      <rect x="486" y="190" width="178" height="28" rx="6" fill="#DCE8DF"/>
+      <text x="575" y="208" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="11" font-weight="600" fill="#285445" text-anchor="middle">Active Cadence</text>
+    </g>
+  </g>
+
+  </g>
+</svg>
