@@ -121,6 +121,27 @@
     });
   });
 
+  // See More toggle
+  const seeMoreBtn = document.querySelector("[data-see-more]");
+  if (seeMoreBtn) {
+    const projectsGrid = document.querySelector(".projects-grid");
+    const seeMoreText = seeMoreBtn.querySelector(".see-more-text");
+
+    seeMoreBtn.addEventListener("click", () => {
+      const isExpanded = projectsGrid.classList.toggle("is-expanded");
+      seeMoreBtn.classList.toggle("is-expanded", isExpanded);
+      seeMoreText.textContent = isExpanded ? "Show Less" : "See More";
+      seeMoreBtn.setAttribute("aria-expanded", String(isExpanded));
+
+      // Trigger reveal animation on newly visible cards
+      if (isExpanded) {
+        projectsGrid.querySelectorAll(".project--hidden").forEach((card) => {
+          card.classList.add("is-visible");
+        });
+      }
+    });
+  }
+
   document.querySelectorAll(".project--link").forEach((card) => {
     const video = card.querySelector(".project-video");
     if (!video) return;

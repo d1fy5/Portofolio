@@ -1356,6 +1356,88 @@ h3 {
   transform: translateX(4px);
 }
 
+/* --- Hidden projects & See More button --- */
+.project--hidden {
+  display: none;
+}
+
+.projects-grid.is-expanded .project--hidden {
+  display: flex;
+  animation: projectReveal 0.5s ease both;
+}
+
+.projects-grid.is-expanded .project--hidden:nth-child(4) { animation-delay: 0ms; }
+.projects-grid.is-expanded .project--hidden:nth-child(5) { animation-delay: 60ms; }
+.projects-grid.is-expanded .project--hidden:nth-child(6) { animation-delay: 120ms; }
+.projects-grid.is-expanded .project--hidden:nth-child(7) { animation-delay: 180ms; }
+.projects-grid.is-expanded .project--hidden:nth-child(8) { animation-delay: 240ms; }
+.projects-grid.is-expanded .project--hidden:nth-child(9) { animation-delay: 300ms; }
+
+@keyframes projectReveal {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.projects-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.btn--see-more {
+  gap: 0.6rem;
+  padding: 0.85rem 2rem;
+  font-size: 0.95rem;
+  transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.btn--see-more:hover {
+  background: var(--soft-blue);
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.see-more-icon {
+  display: inline-flex;
+  transition: transform 0.3s ease;
+  font-size: 1.1rem;
+}
+
+.btn--see-more.is-expanded .see-more-icon {
+  transform: rotate(180deg);
+}
+
+.projects-more.is-hidden {
+  display: none;
+}
+
+/* Placeholder thumbnail for upcoming projects */
+.project-placeholder-thumb {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--bg-soft) 0%, #EFF6FF 100%);
+  z-index: 1;
+}
+
+.project-placeholder-thumb span {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 3.5rem;
+  font-weight: 300;
+  color: rgba(37, 99, 235, 0.18);
+  line-height: 1;
+}
+
 .philosophy {
   background: var(--bg-secondary);
   text-align: center;
